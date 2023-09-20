@@ -1,4 +1,8 @@
 import { fetchBreeds, fetchCatByBreed } from './cat-api.js';
+import './style.css';
+import { Notify } from 'notiflix/build/notiflix-notify-aio';
+import SlimSelect from 'slim-select';
+// import 'slim-select/dist/slimselect.css';
 
 document
   .getElementById('breed-select')
